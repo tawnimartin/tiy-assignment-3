@@ -56,3 +56,19 @@ ul.octodex .image-footer {
   float: left;
   display: inline-block;
 }
+ul.authors {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+}
+ul.authors img {
+  width: 18px;
+  height: 18px;
+  margin: -4px 0 0 0;
+  padding: 0 2px;
+  border: 0px;
+  border-radius: 3px;
+}
+ul.authors li {
+  margin-right: 0;
+}
