@@ -2,3 +2,24 @@ ul.octodex {
   position: relative;
   height: 270px;
 }
+
+ul.octodex li {
+  display: block;
+  float: left;
+  margin: 0 17px 0 0;
+  padding: 0;
+}
+
+ul.octodex img {
+  width: 270px;
+  height: 268px;
+  border: 1px solid #c9c9c9;
+}
+
+ul.octodex .image-footer {
+  height: 36px;
+  width: 272px;
+  border-bottom: 1px solid #c9c9c9;
+  position: absolute;
+  top: 100%;
+}
