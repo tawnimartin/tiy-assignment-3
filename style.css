@@ -23,3 +23,36 @@ ul.octodex .image-footer {
   position: absolute;
   top: 100%;
 }
+.image-number {
+  font-size: 11px;
+  font-family: Arial, sans-serif;
+  color: #c4c5c5;
+  font-weight: bold;
+  float: left;
+  margin-top: 13px;
+}
+.image-number:before {
+    content: "#";
+}
+.image-footer .image-caption {
+  font-size: 10px;
+  float: right;
+  font-family: Arial, sans-serif;
+  font-weight: bold;
+  padding-top: 13px;
+}
+.image-caption span {
+  color: grey;
+  padding-right: 3px;
+  padding-left: 3px;
+}
+
+.image-caption a {
+  text-decoration: none;
+  color: #333;
+}
+
+.image-footer .image-caption span, a, ul {
+  float: left;
+  display: inline-block;
+}
