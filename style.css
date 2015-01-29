@@ -1,3 +1,6 @@
+.container {
+	width: 1300;
+}
 ul.octodex {
   position: relative;
   height: 270px;
