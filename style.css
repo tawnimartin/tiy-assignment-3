@@ -72,3 +72,13 @@ ul.authors img {
 ul.authors li {
   margin-right: 0;
 }
+.tri {
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 6px 5px 0 5px;
+  border-color: #c9c9c9 transparent transparent transparent;
+  position: absolute;
+  top: 0px;
+  left: 262px;
+}
